@@ -8,10 +8,17 @@ body {
   justify-content: center;
   height: 100%;
   margin: 0;
+  padding: 0rem 1rem;
 }
 
 main {
-  width: 20rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 20rem;
+  }
 }
 
 a {
