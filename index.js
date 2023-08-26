@@ -6,7 +6,7 @@ accordions.forEach((accordion) => {
   })
 })
 
-const emailObf = "ian[at]greenpoint[dot]dev"
+const emailObf = "hello[at]greenpoint[dot]dev"
 const email = emailObf.replace("[at]", "@").replace("[dot]", ".")
 const href = `mailto:${email}`
 const emailLink = document.querySelector("#email-link")
