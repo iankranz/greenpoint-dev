@@ -7,16 +7,71 @@
     />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="./index.js" defer></script>
   </head>
   <body>
     <main>
-      <h1>North Brooklyn Codes</h1>
-      <p>
+      <h1>Greenpoint Devs</h1>
+      <p id="description">
         We are a community of developers, data scientists, and students local to
         Greenpoint and Williamsburg. Come join our
         <a href="https://discord.gg/ZvPkNVwMXQ">Discord Server</a>
         to chat with members and keep up to date on local events.
       </p>
+      <ul>
+        <li class="accordion">
+          <div>
+            <h2>Don't use Discord?</h2>
+            <svg
+              width="12"
+              height="20"
+              viewBox="0 0 12 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 18L10 10L2 2"
+                stroke="#FFFFFF"
+                strokeWidth="6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+          <p>
+            You can join the recently created
+            <a href="https://www.facebook.com/groups/1627905027734801">
+              Greenpoint Devs Facebook group
+            </a>
+            for updates.
+          </p>
+        </li>
+
+        <li class="accordion">
+          <div>
+            <h2>Want to send us an email?</h2>
+            <svg
+              width="12"
+              height="20"
+              viewBox="0 0 12 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 18L10 10L2 2"
+                stroke="#FFFFFF"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+          <p>
+            Reach out to
+            <a id="email-link"></a>
+          </p>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
